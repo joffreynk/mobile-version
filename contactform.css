@@ -4,12 +4,7 @@
   width: 330px;
   padding: 0px 24px;
   border-top-left-radius: 60px;
-  background: url("./images/Ellipse\ 12.svg") no-repeat center 45px/15px,
-    url("./images/Rectangle\ 4.svg") no-repeat 100% 23px/40px 45px,
-    url("./images/Ellipse\ 3.svg") no-repeat 100% 50px/40px 40px,
-    url("./images/Rectangle\ 7.svg") no-repeat 80% 94%/40px 45px,
-    url("./images/Ellipse\ 5.svg") no-repeat 78% 93%/40px 12px,
-    url("./images/Shape.svg") no-repeat center bottom/70px 35px, #6070ff;
+  background: url("./images/Ellipse\ 12.svg") no-repeat center 45px/15px, url("./images/Rectangle\ 4.svg") no-repeat 100% 23px/40px 45px, url("./images/Ellipse\ 3.svg") no-repeat 100% 50px/40px 40px, url("./images/Rectangle\ 7.svg") no-repeat 80% 94%/40px 45px, url("./images/Ellipse\ 5.svg") no-repeat 78% 93%/40px 12px, url("./images/Shape.svg") no-repeat center bottom/70px 35px, #6070ff;
 }
 
 .contact-form h2 {
@@ -25,7 +20,7 @@
   margin-top: 25px;
   font-size: 20px;
   text-align: center;
-  color: #ebebff;
+  color:#ebebff;
   font-weight: 400;
   line-height: 28px;
   margin-bottom: 35px;
