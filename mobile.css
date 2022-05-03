@@ -102,15 +102,15 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 ul ul {
   align-self: flex-start;
   display: flex;
   flex-direction: column;
   width: 100%;
-
 }
 
 .downnlanguage {
- align-self: flex-end;
- margin-top: -50px;
+  align-self: flex-end;
+  margin-top: -50px;
 }
