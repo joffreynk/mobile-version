@@ -43,7 +43,8 @@ header a {
   font-weight: bold;
 }
 
-section {
+section, 
+footer {
   position: relative;
   display: flex;
   flex-direction: column;
