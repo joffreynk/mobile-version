@@ -9,7 +9,6 @@
 
 body {
   background-color: #e5e5e5;
-
 }
 
 a {
@@ -43,7 +42,8 @@ header a {
   font-weight: bold;
 }
 
-section {
+section,
+footer {
   position: relative;
   display: flex;
   flex-direction: column;

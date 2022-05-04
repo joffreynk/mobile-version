@@ -39,6 +39,7 @@
   justify-content: space-between;
   width: 100%;
   padding: 13px;
+  align-items: flex-start;
 }
 
 .postcontent {
@@ -96,7 +97,20 @@
   margin-bottom: 4px;
 }
 
-.languageskills {
+.languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul ul {
+  align-self: flex-start;
+  display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.downnlanguage {
+  align-self: flex-end;
+  margin-top: -50px;
 }

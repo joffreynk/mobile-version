@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="contactform.css"/>
     <title>Portfolio</title>
   </head>
   <body>
@@ -346,27 +347,40 @@
       </ul>
       <button class="aboutbutton">Get my Resume</button>
         <ul class="skillset">
-          <li>
-            <h3>languages</h3> <img class="arrow" src="./images/down.png" alt="rightarrow" />
+          <li class="languages">
+            <h3>languages</h3> <img class="arrow downnlanguage" src="./images/down.png" alt="rightarrow" />
+            <ul class="languageskills">
+              <li class="lang">
+                <img src="./images/language3.png" alt="js" />
+                <p>Javascript</p>
+              </li>
+              <li class="lang">
+                <img src="./images/language1.png" alt="js" />
+                <p>HTML</p>
+              </li>
+              <li class="lang">
+                <img src="./images/language2.png" alt="js" />
+                <p>CSS</p>
+              </li>
+            </ul>
           </li>
-          <ul class="languageskills">
-            <li class="lang">
-              <img src="./images/language3.png" alt="js" />
-              <p>Javascript</p>
-            </li>
-            <li class="lang">
-              <img src="./images/language1.png" alt="js" />
-              <p>HTML</p>
-            </li>
-            <li class="lang">
-              <img src="./images/language2.png" alt="js" />
-              <p>CSS</p>
-            </li>
-          </ul>
+          
           <li><h3>Frameworks </h3><img class="arrow" src="./images/right.png" alt="rightarrow" /></li>
           <li><h3>Skills </h3><img class="arrow" src="./images/right.png" alt="rightarrow" />
    </li>
         </ul>
     </section>
+    <footer class="contact-form">
+      <h2 class="h-contact">Contact me</h2>
+      <p class="contact-diescription">
+        If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
+      </p>
+      <form action="#" method="post">
+        <input type="text" required name="userName" maxlength="30" id="userName" placeholder="enter your name"/>
+        <input type="email" required name="userEmail" id="userEmail" placeholder="enter your email"/>
+        <textarea required maxlength="500" name="comment" id="comment" placeholder="Write your message here"></textarea>
+        <button type="submit" class="contact-button">Get It Touch</button>
+      </form>
+    </footer>
   </body>
-</html
+</html>
