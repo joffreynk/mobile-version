@@ -25,11 +25,14 @@ To launch the project you need a modern browser and double click on **index.html
 
 worked together with ny collaborator **Dhuruv**
 
+## Show your support
+
+Give a ⭐️ if you like this project!
+
 ## Acknowledgments
 
 we have used our own code refering to figma design and project requirements
 
-Give a ⭐️ if you like this project!
 
 ## 📝 License
 
